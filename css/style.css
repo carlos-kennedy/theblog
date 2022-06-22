@@ -22,6 +22,9 @@
 
   --border: #f2e7fa;
 
+  /* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
   font-size: 62.5%;
 
   --nav-height: 4.4rem;
@@ -355,7 +358,7 @@ body.menuExpanded nav button {
 #subPosts {
   padding-top: 6.3rem;
   padding-bottom: 0rem;
- 
+
   text-align: left;
 }
 
@@ -366,6 +369,18 @@ body.menuExpanded nav button {
 /* ========RESPONSIVO========== */
 
 @media (min-width: 1024px) {
+  /* CUSTOM SCROLLBAR */
+
+  ::-webkit-scrollbar-thumb {
+    width: 5rem;
+    background: var(--button-bg);
+  }
+
+  ::-webkit-scrollbar {
+    width: 1rem;
+    background: transparent;
+  }
+
   body {
     overflow: auto;
   }
@@ -426,7 +441,7 @@ body.menuExpanded nav button {
 
   nav#navigation .menu {
     width: 67%;
-    
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -448,7 +463,7 @@ body.menuExpanded nav button {
 
   nav#navigation .menu ul a:hover {
     border-left: 0.3rem solid var(--green);
-    
+
     opacity: 1;
   }
 
