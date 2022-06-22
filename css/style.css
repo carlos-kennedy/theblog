@@ -368,7 +368,14 @@ body.menuExpanded nav button {
 
 /* ========RESPONSIVO========== */
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) {  
+
+  /* =CUSTOM SCROLLBAR= */
+  ::-webkit-scrollbar {
+    width: 0rem;
+    background: transparent;
+  }
+
   body {
     overflow: auto;
   }
