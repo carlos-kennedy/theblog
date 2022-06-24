@@ -252,6 +252,7 @@ body.menuExpanded nav button {
 }
 
 .menu .search input {
+  width: 100%;
   padding: 1.5rem 2rem;
   background: var(--dark-bg);
 
