@@ -22,9 +22,6 @@
 
   --border: #f2e7fa;
 
-  /* font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
   font-size: 62.5%;
 
   --nav-height: 4.4rem;
@@ -235,7 +232,7 @@ body.menuExpanded nav button {
   color: var(--white);
   opacity: 0.5;
 
-  transition: border-left 0.8s;
+ transition: ease-in-out 0.8s;
 }
 
 .menu ul li a:hover {
