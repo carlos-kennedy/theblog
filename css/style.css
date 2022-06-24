@@ -232,7 +232,7 @@ body.menuExpanded nav button {
   color: var(--white);
   opacity: 0.5;
 
- transition: ease-in-out 0.8s;
+ transition: ease-in-out 0.6s;
 }
 
 .menu ul li a:hover {
